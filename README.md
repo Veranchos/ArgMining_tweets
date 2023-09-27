@@ -15,3 +15,20 @@ Models that were used in comparison can be found in [models](models/) directory:
 - [COVID-Twitter-BERT](models/CT-Bert)
 - [DAN-BERT](models/DAN-Bert)
 
+## Citation
+If you find our data and/or code useful, please cite:
+```
+@inproceedings{davydova-tutubalina-2022-smm4h,
+    title = "{SMM}4{H} 2022 Task 2: Dataset for stance and premise detection in tweets about health mandates related to {COVID}-19",
+    author = "Davydova, Vera  and
+      Tutubalina, Elena",
+    booktitle = "Proceedings of The Seventh Workshop on Social Media Mining for Health Applications, Workshop {\&} Shared Task",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.smm4h-1.53",
+    pages = "216--220",
+    abstract = "This paper is an organizers{'} report of the competition on argument mining systems dealing with English tweets about COVID-19 health mandates. This competition was held within the framework of the SMM4H 2022 shared tasks. During the competition, the participants were offered two subtasks: stance detection and premise classification. We present a manually annotated corpus containing 6,156 short posts from Twitter on three topics related to the COVID-19 pandemic: school closures, stay-at-home orders, and wearing masks. We hope the prepared dataset will support further research on argument mining in the health field.",
+}
+```
