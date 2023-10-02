@@ -9,7 +9,7 @@ This repository contains baseline solutions of SMM4H'22 Task 2: Classification o
 - [2070](data/test/vaccine_tweets) annotated tweets about vaccine mandates, that were not used in the official SMM4H competition
 - [600](data/test/vaccine_tweets/unused) annotated tweets about vaccine mandates with low inter-annotators agreement.
 
-  The dataset is also available at 🤗[Hugging Face](https://huggingface.co/datasets/veranchos/arg_mining_tweets).
+🤗 The dataset is also available at [Hugging Face](https://huggingface.co/datasets/veranchos/arg_mining_tweets).
 
 ## Models
 Models that were used in comparison can be found in [models](models/) directory:
