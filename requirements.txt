@@ -1,14 +1,13 @@
-pandas
+pandas==2.0.1
 seaborn
-transformers>=4.26.1
 numpy
 scikit-learn
 scipy
-seaborn
 matplotlib
 sympy
 tensorboard
 tqdm
+transformers>=4.26.1
 python-json-logger==2.0.6
 pytorch-lightning==1.6.0
 tensorflow==2.2.0
