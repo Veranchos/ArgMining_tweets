@@ -20,17 +20,16 @@ Models that were used in comparison can be found in [models](models/) directory:
 ## Citation
 If you find our data and/or code useful, please cite:
 ```
-@inproceedings{davydova-tutubalina-2022-smm4h,
-    title = "{SMM}4{H} 2022 Task 2: Dataset for stance and premise detection in tweets about health mandates related to {COVID}-19",
-    author = "Davydova, Vera  and
-      Tutubalina, Elena",
-    booktitle = "Proceedings of The Seventh Workshop on Social Media Mining for Health Applications, Workshop {\&} Shared Task",
-    month = oct,
-    year = "2022",
-    address = "Gyeongju, Republic of Korea",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.smm4h-1.53",
-    pages = "216--220",
-    abstract = "This paper is an organizers{'} report of the competition on argument mining systems dealing with English tweets about COVID-19 health mandates. This competition was held within the framework of the SMM4H 2022 shared tasks. During the competition, the participants were offered two subtasks: stance detection and premise classification. We present a manually annotated corpus containing 6,156 short posts from Twitter on three topics related to the COVID-19 pandemic: school closures, stay-at-home orders, and wearing masks. We hope the prepared dataset will support further research on argument mining in the health field.",
+@article{DAVYDOVA2023104555,
+title = {Data and models for stance and premise detection in COVID-19 tweets: Insights from the Social Media Mining for Health (SMM4H) 2022 shared task},
+journal = {Journal of Biomedical Informatics},
+pages = {104555},
+year = {2023},
+issn = {1532-0464},
+doi = {https://doi.org/10.1016/j.jbi.2023.104555},
+url = {https://www.sciencedirect.com/science/article/pii/S1532046423002769},
+author = {Vera Davydova and Huabin Yang and Elena Tutubalina},
+keywords = {Natural language processing, COVID-19 tweets, Opinion mining, Argument mining, Stance detection, Premise detection},
+abstract = {The COVID-19 pandemic has sparked numerous discussions on social media platforms, with users sharing their views on topics such as mask-wearing and vaccination. To facilitate the evaluation of neural models for stance detection and premise classification, we organized the Social Media Mining for Health (SMM4H) 2022 Shared Task 2. This competition utilized manually annotated posts on three COVID-19-related topics: school closures, stay-at-home orders, and wearing masks. In this paper, we extend the previous work and present newly collected data on vaccination from Twitter to assess the performance of models on a different topic. To enhance the accuracy and effectiveness of our evaluation, we employed various strategies to aggregate tweet texts with claims, including models with feature-level (early) fusion and dual-view architectures from the SMM4H 2022 Task 2 leaderboard. Our primary objective was to create a valuable dataset and perform an extensive experimental evaluation to support future research in argument mining in the health domain.}
 }
 ```
