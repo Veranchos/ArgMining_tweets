@@ -20,11 +20,12 @@ Models that were used in comparison can be found in [models](models/) directory:
 ## Citation
 If you find our data and/or code useful, please cite:
 ```
-@article{DAVYDOVA2023104555,
+@article{DAVYDOVA2024104555,
 title = {Data and models for stance and premise detection in COVID-19 tweets: Insights from the Social Media Mining for Health (SMM4H) 2022 shared task},
 journal = {Journal of Biomedical Informatics},
+volume = {149},
 pages = {104555},
-year = {2023},
+year = {2024},
 issn = {1532-0464},
 doi = {https://doi.org/10.1016/j.jbi.2023.104555},
 url = {https://www.sciencedirect.com/science/article/pii/S1532046423002769},
